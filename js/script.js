@@ -20,6 +20,7 @@ $(document).ready(function(){
    
 });
 
+
 $(document).ready(function(){
     $(".work-4").mouseover(function(){
         $("#text4-overlay").show();
@@ -81,4 +82,8 @@ $("form#form1").on('submit',function(event){
     }
 
 });
- 
+$('.img').hover(function(){
+    $('.text',this).slideToggle('slow');
+  }, function(){
+    $('.text',this).slideToggle('slow');
+  });

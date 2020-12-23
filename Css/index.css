@@ -93,18 +93,28 @@ textarea::placeholder{
   display: none;
 }
 
+.overlay{
+  background-color: black;
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 90%;
+}
+
  
-  #text1 #text2 #text3 #text4 {
-    display: none;
+  .text {
     position: absolute;
-    background-color: rgba(153, 51, 102, 0.144);
+    background-color: rgba(49, 42, 46, 0.329);
     margin-top: 60px;
     padding-top: 40px;
     padding-left: 40px;
     color: white;
+    display: none;
+    width: 15%;
+    height: 18%;
   }
   #text5 #text6 #text7 #text8{
-    display: none;
     position: absolute;
     background-color: rgba(153, 51, 102, 0.144);
     margin-top: 60px;
@@ -113,5 +123,27 @@ textarea::placeholder{
     color: white;
 
   }
+
+  .img .text {
+    display: none;
+    opacity: 1;
+    background-color:rgba(255, 255, 255, 0.6);
+    width: auto;
+    position: absolute;
+    bottom: 0;
+    color: deepskyblue;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 30px;
+    height: 100%;
+}
+  /* .wonger{
+    width: 80%;
+    height: 80%;
+    border: 2px solid #fff;
+    margin-left: 10%;
+    margin-top: 10%;
+  } */
 
   
