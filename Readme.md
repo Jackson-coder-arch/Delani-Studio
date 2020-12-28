@@ -1,7 +1,7 @@
 # DELANI STUDIO
 ### This project helps us create a landing page for a fictional studio.
 ### By Jackson Ikonya
-####
+#### https://github.com/Jackson-coder-arch/Delani-Studio
 ## DESCRIPTION
 #### In this project helps a student on how to use a toogle effect to the image and the hover effects.
 ## KNOWN BUGS
