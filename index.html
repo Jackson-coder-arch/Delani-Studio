@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delani Studio</title>
     <link rel="stylesheet" href="./Css/index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet"> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 </head>
@@ -22,7 +24,7 @@
         <img id="mouse" src="./assets/mouse_click.png" alt="mouse_click">
 
     </div>
-    <div class="container text-center pt-5 ">
+    <div class="container text-center pt-5 about us">
         <h2>ABOUT US</h2>
         <P>When you work with us, you are part of a team of committed collabolators. All aspects of our software
             development process are integrated, interactive</P>
@@ -240,9 +242,12 @@
                 </div>
 
             </div>
-            <textarea name="name" rows="8" cols="100" id="message" placeholder="Your message here..."
-                class="my-3"></textarea>
-            <input type="submit" value="submit" class="text-white">
+            <div class="textarea row">
+                <textarea class="col-8 my-3" name="name" rows="8" cols="100" id="message" placeholder="Your message here..."></textarea>
+            <input class="col-12 my-3" type="submit" value="submit" class="text-white">
+
+            </div>
+            
         </form>
     </div>
 
