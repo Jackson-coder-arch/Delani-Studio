@@ -62,45 +62,20 @@ $(document).ready(function(){
     }).mouseout(function(){
         $("#text8-overlay").hide();
     });
-    $("form#form1").on('submit',function(event){
+    $("form#mc-embedded-subscribe-form").on('submit',function(event){
         event.preventDefault();
-        var name =$("input#name").val();
-        var email =$("input#email").val();
-        var message = $("textarea#message").val();
+        var name =$("input#mce-FNAME").val();
+        var email =$("input#mce-EMAIL").val();
+        var message = $("textarea#Message").val();
     
     
-        if ($("input#name").val() && $("input#email").val() && $("input#message").val() ){
-            alert ( "Thank you for reaching out, we'll get back to you shortly..");
-        }
-        else if ($("input#name").val() && $("input#email").val()){
+       
+        if ($("input#mce-FNAME").val() && $("input#mce-EMAIL").val()){
             alert ("Thank you for reaching out to us. If you wish to leave a message please type in on the message section..");
         }
     
-        // else{
-        //     alert ("Please provide correct name or email");
-        // }
-    
     });
 
-// $("form#form1").on('submit',function(event){
-//     event.preventDefault();
-//     var name =$("input#name").val();
-//     var email =$("input#email").val();
-//     var message = $("textarea#message").val();
-
-
-//     if ($("input#name").val() && $("input#email").val() && $("input#message").val() ){
-//         alert ( "Thank you for reaching out, we'll get back to you shortly..");
-//     }
-//     else if ($("input#name").val() && $("input#email").val()){
-//         alert ("Thank you for reaching out to us. If you wish to leave a message pl ease type in on the message section..");
-//     }
-
-//     // else{
-//     //     alert ("Please provide correct name or email");
-//     // }
-
-// });
 $('.img').hover(function(){
     $('.text',this).slideToggle('slow');
   }, function(){
