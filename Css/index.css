@@ -106,19 +106,22 @@ textarea::placeholder{
   top: 0;
   bottom: 0;
   width: 90%;
+  
+  
+
 }
 
  
   .text {
     position: absolute;
     background-color: rgba(49, 42, 46, 0.329);
-    margin-top: 50px;
-    padding-top: 40px;
-    padding-left: 40px !important;
+    margin-top: 35px;
+    padding-top: 30px;
+    padding-left: 90px !important;
     color: white;
     display: none;
-    width: 13%;
-    height: 18%;
+    width: 16%;
+    height: 20%;
     border: 2px solid white;
     
   }
